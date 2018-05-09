@@ -98,6 +98,6 @@ Now that we are done starting a bus, i.e. we have a bus going from Goregaon to V
 
 # Final Changes
 
-Here I have uploaded all the PHP files and set up the database on a free host. You can set up your own server with all the changes you want in the database, you need to update the domain name [here](https://github.com/oppasource/City-Bus-Tracking-Android-App/blob/master/MyApplication/app/src/main/java/com/example/yash/myapplication/MainActivity.java#L28). Also if you are going to change the PHP file names, you would have to change the names by going into each individual Bgtask for that activity in the android side.
+Here I have uploaded all the PHP files and set up the database on a free host. You can set up your own server with all the changes you want in the database, you need to update the domain name [here](https://github.com/oppasource/City-Bus-Tracking-Android-App/blob/master/MyApplication/app/src/main/java/com/example/yash/myapplication/MainActivity.java#L28). Also if you are going to change the PHP file names, you would have to change the names by going into each individual Bgtask for that activity in the android side. Also you would have to change [this file](https://github.com/oppasource/City-Bus-Tracking-Android-App/blob/master/PHP%20files/init.php) according to your database parameters.
 
 
