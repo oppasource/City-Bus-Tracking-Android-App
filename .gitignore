@@ -55,5 +55,5 @@ freeline/
 freeline_project_description.json
 
 *.md~
-.jpg~
-.png~
+*.jpg~
+*.png~
