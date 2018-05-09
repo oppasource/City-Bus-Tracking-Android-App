@@ -91,8 +91,13 @@ When the conductor hits START, he is taken to the next screen where we just pull
 
 Now that we are done starting a bus, i.e. we have a bus going from Goregaon to Vile Parle let us  check if this bus can be seen by a user standing at the bus stop. Here we will use a fake GPS app that can engage a fake location for our phone. We have used the fake GPS app to set our location to somewhere near Andheri. Think of it as a user standing at Andheri bus stop trying to see what buses will be arriving. As soon as he starts the app, first of all the nearest bus stop is detected which is Andheri. We can also see the bus that will be arriving at Andheri!!! 201. And it shows that the bus is reaching Jogeshwari and the final destination is Vile Parle.
 
-<img src="https://github.com/oppasource/City-Bus-Tracking-Android-App/blob/master/images%20for%20this%20repo/6screen.png" width="250">
+<img src="https://github.com/oppasource/City-Bus-Tracking-Android-App/blob/master/images%20for%20this%20repo/6screen.png" width="250">    
 
+<br/>
+<br/>
 
+# Final Changes
+
+Here I have uploaded all the PHP files and set up the database on a free host. You can set up your own server with all the changes you want in the database, you need to update the domain name [here](https://github.com/oppasource/City-Bus-Tracking-Android-App/blob/master/MyApplication/app/src/main/java/com/example/yash/myapplication/MainActivity.java#L28). Also if you are going to change the PHP file names, you would have to change the names by going into each individual Bgtask for that activity in the android side.
 
 
